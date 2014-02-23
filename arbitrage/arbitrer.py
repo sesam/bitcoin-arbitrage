@@ -130,7 +130,7 @@ class Arbitrer(object):
         for observer in self.observers:
             observer.opportunity(
                 profit, volume, buyprice, kask, sellprice, kbid,
-                perc2, weighted_buyprice, weighted_sellprice)
+                perc, weighted_buyprice, weighted_sellprice)
 
     def __get_market_depth(self, market, depths):
         depths[market.name] = market.get_depth()
