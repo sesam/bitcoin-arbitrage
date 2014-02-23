@@ -2,6 +2,12 @@
 
 Cloned [@maxme](http://github.com/maxme)'s [bitcoin-arbitrage](http://github.com/maxme/bitcoin-arbitrage) project and added a customer Observer that writes to a Queue, so that a RESTful API can expose the opportunities currently available across bitcoin exchanges.
 
+# System
+
+Works together with:
+* https://github.com/lmartinho/bitcoin-arbitrage-service
+* https://github.com/Sjors/ng-bitcoin-arbitrage
+
 # Installation And Configuration
 
     cp arbitrage/config.py-example arbitrage/config.py
