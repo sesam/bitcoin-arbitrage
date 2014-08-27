@@ -15,10 +15,16 @@ Works together with:
 Then edit config.py file to setup your preferences: watched markets
 and observers
 
-You need Python3 to run this program. To install on Debian, Ubuntu, or
-variants of them, use:
+You need Python3 to run this program.
+
+To install on Debian, Ubuntu, or variants of them, use:
 
     $ sudo apt-get install python3 python3-pip python-nose
+
+To install on Mac, use:
+    
+    $ brew install python3
+    $ sudo pip3 install nose pymongo
 
 # Run
 
